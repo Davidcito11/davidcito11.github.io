@@ -1,3 +1,14 @@
 {
-  "extends": "astro/tsconfigs/strict"
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "jsx": "react-jsx",  // Habilita JSX para React 17+ (si estás usando una versión anterior de React, usa "react")
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src",
+    "node_modules/.pnpm/**/node_modules/@types/*"  // Asegúrate de incluir los tipos de @types
+  ]
 }
