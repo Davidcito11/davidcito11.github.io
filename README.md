@@ -1,6 +1,6 @@
-<h1>AgenceX Landing page</h1>
+<h1>Julian page</h1>
 
-A simple landing page for a digital agency
+nashe
 
 ![AgenceX light Theme](./screens/demoLight.webp)
 ![AgenceX Dark Theme](./screens/demoDark.webp)
