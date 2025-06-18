@@ -1,50 +1,118 @@
 ---
 import Container from "../shared/Container.astro";
 import Title from "../shared/Title.astro";
-
 ---
 
 <section>
-    <Container className="space-y-8">
-        <div class="text-center max-w-3xl mx-auto">
-            <Title>
-                Techs i have used
-            </Title>
-        </div>
-        <div class="flex justify-center flex-wrap gap-4">
-            <div class="p-4 sm:p-5 rounded-xl bg-body border border-box-border group">
-                <img src="/logos/html5.png" width="100" height="60" alt="html5" class="h-7 sm:h-10 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105">
-            </div>
-            <div class="p-4 sm:p-5 rounded-xl bg-body border border-box-border group">
-                <img src="/logos/css.png" width="100" height="60" alt="css" class="h-7 sm:h-10 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105">
-            </div>
-            <div class="p-4 sm:p-5 rounded-xl bg-body border border-box-border group">
-                <img src="/logos/js.png" width="100" height="60" alt="js" class="h-7 sm:h-10 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105">
-            </div>
-            <div class="p-4 sm:p-5 rounded-xl bg-body border border-box-border group">
-                <img src="/logos/react.png" width="100" height="60" alt="react" class="h-7 sm:h-10 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105">
-            </div>
-            <div class="p-4 sm:p-5 rounded-xl bg-body border border-box-border group">
-                <img src="/logos/nextjs.png" width="100" height="60" alt="nextjs" class="h-7 sm:h-10 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105">
-            </div>
-            <div class="p-4 sm:p-5 rounded-xl bg-body border border-box-border group">
-                <img src="/logos/sql.png" width="100" height="60" alt="playwright" class="h-7 sm:h-10 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105">
-            </div>
-            <div class="p-4 sm:p-5 rounded-xl bg-body border border-box-border group">
-                <img src="/logos/mui.png" width="100" height="60" alt="mui" class="h-7 sm:h-10 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105">
-            </div>
-            <div class="p-4 sm:p-5 rounded-xl bg-body border border-box-border group">
-                <img src="/logos/playwright.png" width="100" height="60" alt="mui" class="h-7 sm:h-10 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105">
-            </div>
-            <div class="p-4 sm:p-5 rounded-xl bg-body border border-box-border group">
-                <img src="/logos/sass.png" width="100" height="60" alt="mui" class="h-7 sm:h-10 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105">
-            </div>
-            <div class="p-4 sm:p-5 rounded-xl bg-body border border-box-border group">
-                <img src="/logos/java.png" width="100" height="60" alt="mui" class="h-7 sm:h-10 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105">
-            </div>
-            <div class="p-4 sm:p-5 rounded-xl bg-body border border-box-border group">
-                <img src="/logos/php.png" width="100" height="60" alt="mui" class="h-7 sm:h-10 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105">
-            </div>
-        </div>
-    </Container>
+  <Container className="space-y-8">
+    <div class="text-center max-w-3xl mx-auto">
+      <Title> Techs i have used </Title>
+    </div>
+    <div class="flex justify-center items-center flex-wrap gap-4">
+      <div
+        class="p-4 sm:p-5 min-h-[100px] rounded-xl bg-body border border-box-border group"
+      >
+        <img
+          src="/logos/html5.png"
+          alt="html5"
+          class="h-12 sm:h-14 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105"
+        />
+      </div>
+      <div
+        class="p-4 sm:p-5 min-h-[100px] rounded-xl bg-body border border-box-border group"
+      >
+        <img
+          src="/logos/css.png"
+          alt="css"
+          class="h-12 sm:h-14 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105"
+        />
+      </div>
+      <div
+        class="p-4 sm:p-5 min-h-[100px] rounded-xl bg-body border border-box-border group"
+      >
+        <img
+          src="/logos/js.png"
+          alt="javascript"
+          class="h-12 sm:h-14 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105"
+        />
+      </div>
+      <div
+        class="p-4 sm:p-5 min-h-[100px] rounded-xl bg-body border border-box-border group"
+      >
+        <img
+          src="/logos/react.png"
+          alt="react"
+          class="h-12 sm:h-14 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105"
+        />
+      </div>
+      <div
+        class="p-4 sm:p-5 min-h-[100px] rounded-xl bg-body border border-box-border group relative w-[100px] h-[100px] flex items-center justify-center"
+      >
+        <img
+          src="/logos/nextjs.png"
+          alt="next.js Logo Light"
+          class="h-12 sm:h-14 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105 block dark:hidden"
+        />
+        <img
+          src="/logos/nextd.jpg"
+          alt="Next.js Logo Dark"
+          class="h-12 sm:h-14 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105 hidden dark:block"
+        />
+      </div>
+      <div
+        class="p-4 sm:p-5 min-h-[100px] rounded-xl bg-body border border-box-border group"
+      >
+        <img
+          src="/logos/sql.png"
+          alt="sql"
+          class="h-12 sm:h-14 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105"
+        />
+      </div>
+      <div
+        class="p-4 sm:p-5 min-h-[100px] rounded-xl bg-body border border-box-border group"
+      >
+        <img
+          src="/logos/mui.png"
+          alt="mui"
+          class="h-12 sm:h-14 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105"
+        />
+      </div>
+      <div
+        class="p-4 sm:p-5 min-h-[100px] rounded-xl bg-body border border-box-border group"
+      >
+        <img
+          src="/logos/playwright.png"
+          alt="playwright"
+          class="h-12 sm:h-14 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105"
+        />
+      </div>
+      <div
+        class="p-4 sm:p-5 min-h-[100px] rounded-xl bg-body border border-box-border group"
+      >
+        <img
+          src="/logos/sass.png"
+          alt="sass"
+          class="h-12 sm:h-14 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105"
+        />
+      </div>
+      <div
+        class="p-4 sm:p-5 min-h-[100px] rounded-xl bg-body border border-box-border group"
+      >
+        <img
+          src="/logos/java.png"
+          alt="java"
+          class="h-12 sm:h-14 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105"
+        />
+      </div>
+      <div
+        class="p-4 sm:p-5 min-h-[100px] rounded-xl bg-body border border-box-border group"
+      >
+        <img
+          src="/logos/php.png"
+          alt="php"
+          class="h-12 sm:h-14 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105"
+        />
+      </div>
+    </div>
+  </Container>
 </section>
