@@ -12,6 +12,8 @@ const ButtonInteraction: React.FC = () => {
       btn.style.setProperty("--x", `${x}deg`);
       console.log(`Angle: ${x}deg`);
         
+      console.log(`Angle: ${x}deg`);
+        
     }
   };
 
